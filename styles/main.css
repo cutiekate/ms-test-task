@@ -1,0 +1,225 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Mplus 1p";
+  src: url("../fonts/Mplus1p-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.header {
+  min-width: 100%;
+  height: 688px;
+  background: radial-gradient(87.32% 309.67% at 33.89% 42.81%, #3d3d3d 0%, #171717 100%); }
+  .header__container {
+    margin: 0 auto;
+    max-width: 1140px; }
+  .header__border {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    -webkit-transform: rotate(0.05deg);
+            transform: rotate(0.05deg);
+    margin-right: 1rem;
+    margin-left: 1rem; }
+  .header__description--head {
+    margin-top: 167px;
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff; }
+  .header__description--body {
+    margin-top: 40px;
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7); }
+  .header__form {
+    max-width: 450px;
+    height: 456px;
+    margin-top: 55px;
+    margin-left: 105px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#292929), to(#282828));
+    background: linear-gradient(180deg, #292929 0%, #282828 100%);
+    -webkit-box-shadow: -5px 5px 20px #000;
+            box-shadow: -5px 5px 20px #000; }
+  @media screen and (max-width: 1199px) {
+    .header__form {
+      margin-left: 30px; } }
+  @media screen and (max-width: 992px) {
+    .header__form {
+      max-width: 400px;
+      margin-left: 72px; }
+    .header__description--head {
+      margin-top: 145px;
+      font-size: 27px; }
+    .header__description--body {
+      font-size: 21px; } }
+  @media screen and (max-width: 577px) {
+    .header__form {
+      margin-left: 89px; }
+    .header__description--head {
+      margin-top: 85px; } }
+  @media screen and (max-width: 549px) {
+    .header__form {
+      margin-left: 73px; } }
+  @media screen and (max-width: 520px) {
+    .header__form {
+      margin-left: 59px; } }
+  @media screen and (max-width: 497px) {
+    .header__form {
+      margin-left: 49px; }
+    .header__description--head {
+      font-size: 24px; } }
+  @media screen and (max-width: 470px) {
+    .header__form {
+      margin-left: 34px; } }
+  @media screen and (max-width: 456px) {
+    .header__form {
+      margin-left: 27px; }
+    .header__description--body {
+      font-size: 16px;
+      margin-top: 24px; } }
+  @media screen and (max-width: 443px) {
+    .header__form {
+      margin-left: 19px; } }
+  @media screen and (max-width: 428px) {
+    .header__form {
+      margin-left: 11px; } }
+  @media screen and (max-width: 412px) {
+    .header__form {
+      margin-left: 5px; } }
+  @media screen and (max-width: 405px) {
+    .header__form {
+      margin-left: 40px;
+      max-width: 320px; } }
+  @media screen and (max-width: 390px) {
+    .header__form {
+      margin-left: 35px; } }
+  @media screen and (max-width: 377px) {
+    .header__form {
+      margin-left: 20px; } }
+  @media screen and (max-width: 353px) {
+    .header__form {
+      margin-left: 15px; }
+    .header__description--head {
+      margin-top: 40px;
+      font-size: 22px; } }
+  @media screen and (max-width: 344px) {
+    .header__form {
+      margin-left: 10px; } }
+  @media screen and (max-width: 330px) {
+    .header__form {
+      margin-left: 5px; } }
+  @media screen and (max-width: 324px) {
+    .header__form {
+      margin-left: 2px; } }
+  @media screen and (max-width: 322px) {
+    .header__form {
+      margin-left: 0; } }
+
+.navbar {
+  padding-bottom: 11px;
+  padding-top: 12px; }
+  .navbar__link {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer; }
+  .navbar__link:focus {
+    font-weight: 800;
+    color: #0f68e4; }
+  .navbar__link:hover {
+    color: #0f68e4; }
+  .navbar__link--last {
+    padding-right: 0; }
+
+.form {
+  padding-left: 0;
+  padding-top: 76px; }
+  .form__input {
+    width: 300px;
+    height: 60px;
+    padding-left: 47px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+    background: #2d2d2d;
+    border: 1px solid #bfbfbf;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #bfbfbf; }
+  .form__input::-webkit-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf; }
+  .form__input::-moz-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf; }
+  .form__input:-ms-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf; }
+  .form__input::-ms-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf; }
+  .form__input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #bfbfbf; }
+  .form__button {
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 75px;
+    background: #0f68e4;
+    -webkit-box-shadow: 10px 5px 20px #000;
+            box-shadow: 10px 5px 20px #000;
+    border: none;
+    border-radius: 4px;
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff; }
+  .form__input--user-img {
+    background: url(../images/User.svg) no-repeat 5% 50%; }
+  .form__input--email-img {
+    background: url(../images/email.svg) no-repeat 5% 50%; }
+  .form__input--phone-img {
+    background: url(../images/phone.svg) no-repeat 5% 50%; }
+  @media screen and (max-width: 992px) {
+    .form__input {
+      margin-left: 50px;
+      margin-right: 50px; }
+    .form__button {
+      margin-left: 50px; } }
+  @media screen and (max-width: 405px) {
+    .form__input, .form__button {
+      width: 215px; } }
+
+.header {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
