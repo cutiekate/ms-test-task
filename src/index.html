@@ -4,10 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link
+     rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+     crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+      <div class="container header">
+        <div class="header__container">
+          <nav class="navbar">
+            <a class="navbar-brand" href="#">
+              <img
+              src="./images/logo.svg"
+              widht="100px"
+              height="43px"
+              alt="logo">
+            </a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#">Авторы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#">О курсе</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#">Содержание</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link navbar__link--last" href="#">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__border"></div>
+          <div class="container header__main">
+            <div class="row">
+              <div class="col header__description">
+                <h1 class="header__description--head">Start Trading — видео-курс из 7-и уроков</h1>
+                <p class="header__description--body">Поможет тебе понять как получить первую прибыль уже после просмотра первого видео</p>
+              </div>
+              <div class="col-sm-6 header__form form">
+                <form>
+                  <input
+                  class="form__input form__input--user-img"
+                  type="text"
+                  placeholder="Введите имя"
+                  >
+                  <input
+                  class="form__input form__input--email-img"
+                  type="text"
+                  placeholder="E-mail"
+                  >
+                  <input
+                  class="form__input form__input--phone-img"
+                  type="text"
+                  placeholder="Телефон"
+                  >
+                  <button class="form__button">получить курс</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

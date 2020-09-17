@@ -1,7 +1,11 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "navbar";
+@import "form";
 
-body {
-  background: $c-gray;
+.header {
+  margin: 0;
+  padding: 0;
 }

@@ -1,0 +1,27 @@
+.navbar {
+  padding-bottom: 11px;
+  padding-top: 12px;
+
+  &__link {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+  }
+
+  &__link:focus {
+    font-weight: 800;
+    color: #0f68e4;
+  }
+
+  &__link:hover {
+    color: #0f68e4;
+  }
+
+  &__link--last {
+    padding-right: 0;
+  }
+}
