@@ -10,6 +10,7 @@
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
+    transition: color 1s;
   }
 
   &__link:focus {

@@ -38,6 +38,13 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.5s, color 1s;
+  }
+
+  &__button:hover {
+    box-shadow: 10px 5px 20px #2d2d2d;
+    color: #2d2d2d;
   }
 
   &__input--user-img {
@@ -51,7 +58,7 @@
   &__input--phone-img {
     background: url(../images/phone.svg) no-repeat 5% 50%;
   }
-  
+
   @media screen and (max-width: 992px) {
     &__input {
       margin-left: 50px;

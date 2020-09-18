@@ -42,6 +42,11 @@
     margin-left: 105px;
     background: linear-gradient(180deg, #292929 0%, #282828 100%);
     box-shadow: -5px 5px 20px #000;
+    transition: box-shadow 1s;
+  }
+
+  &__form:hover {
+    box-shadow: -5px 5px 20px #282828;
   }
 
   @media screen and (max-width: 1199px) {
@@ -185,5 +190,11 @@
     &__form {
       margin-left: 0;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 960px;
   }
 }
