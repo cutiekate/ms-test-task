@@ -1,0 +1,134 @@
+.section-advantages {
+  background: #fff;
+
+  &__head {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  &__head--blue {
+    color: #0f68e4;
+  }
+
+  &__card {
+    position: relative;
+    min-width: 450px;
+    height: 150px;
+    background: #fff;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 57px;
+    box-sizing: content-box;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  &__card--img {
+    max-width: 20%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  &__card--head {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0f68e4;
+    padding-top: 25px;
+  }
+
+  &__card--text {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3d3d3d;
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__card--text {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 625px) {
+    &__card {
+      min-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 522px) {
+    &__card {
+      min-width: 365px;
+    }
+  }
+
+  @media screen and (max-width: 486px) {
+    &__head {
+      font-size: 23px;
+      line-height: 33px;
+      padding-top: 60px;
+      padding-bottom: 24px;
+    }
+
+    &__card {
+      min-width: 300px;
+    }
+
+    &__card--img {
+      padding-right: 60px;
+    }
+
+    &__card--head {
+      font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    &__card {
+      min-width: 250px;
+      height: 177px;
+      margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    &__card--img {
+      padding-top: 30px;
+      padding-left: 11px;
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    &__card {
+      min-width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    &__card {
+      margin-right: 15px;
+      margin-left: 15px;
+      min-width: 100px;
+    }
+
+    &__card--text {
+      font-size: 15px;
+    }
+
+    &__card--img {
+      padding-right: 65px;
+    }
+  }
+}
