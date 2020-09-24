@@ -534,6 +534,240 @@ h1 {
       padding-bottom: 50px;
       padding-left: 5px; } }
 
+.section-content {
+  min-width: 100%;
+  background: #fff; }
+  .section-content__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .section-content__line {
+    margin-top: 122px;
+    margin-left: -11px;
+    background: url(../images/Line.svg);
+    min-width: 295px;
+    height: 1px; }
+  .section-content__header {
+    margin-top: 101px;
+    margin-left: 20px;
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #282828;
+    margin-bottom: 73px; }
+  .section-content__names {
+    width: 520px;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    -webkit-box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 10px; }
+  .section-content__names--number {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 130%;
+    color: #282828;
+    margin-top: 22px;
+    margin-left: 29px;
+    margin-right: 10px; }
+  .section-content__names--text {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #282828;
+    -webkit-transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+            transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+    padding-top: 26px; }
+  .section-content__card {
+    width: 580px;
+    height: 620px;
+    background: #fff;
+    -webkit-box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 97px; }
+  .section-content__card--body {
+    padding-top: 20px;
+    padding-left: 49px; }
+  .section-content__card--title {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0f68e4;
+    -webkit-transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+            transform: matrix(1, -0.01, 0.01, 1, 0, 0); }
+  .section-content__text {
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+    -webkit-transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+            transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+    margin-top: 20px; }
+  .section-content__time {
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .section-content__time--value {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 20px;
+    color: #bdbdbd;
+    margin-left: 15px; }
+  .section-content__button {
+    width: 300px;
+    height: 60px;
+    background: #0f68e4;
+    -webkit-box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: color 1s, -webkit-box-shadow 0.5s;
+    transition: color 1s, -webkit-box-shadow 0.5s;
+    transition: box-shadow 0.5s, color 1s;
+    transition: box-shadow 0.5s, color 1s, -webkit-box-shadow 0.5s; }
+  .section-content__button:hover {
+    -webkit-box-shadow: 10px 5px 20px #2d2d2d;
+            box-shadow: 10px 5px 20px #2d2d2d;
+    color: #2d2d2d; }
+  @media screen and (max-width: 1220px) {
+    .section-content__card {
+      width: 515px; } }
+  @media screen and (max-width: 1201px) {
+    .section-content__card {
+      min-width: 100%;
+      margin: 30px 80px; }
+    .section-content__body {
+      min-width: 100%; }
+    .section-content__names {
+      min-width: 100%; } }
+  @media screen and (max-width: 757px) {
+    .section-content__card {
+      margin-left: 0; }
+    .section-content__line {
+      display: none; }
+    .section-content__header {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 27px;
+      text-align: center; } }
+  @media screen and (max-width: 571px) {
+    .section-content__names {
+      width: 350px; }
+    .section-content__card {
+      width: 450px; }
+    .section-content__names--text {
+      font-size: 21px; } }
+  @media screen and (max-width: 482px) {
+    .section-content__names--text {
+      font-size: 18px; }
+    .section-content__card {
+      width: 420px; }
+    .section-content__card--body {
+      padding-left: 26px; } }
+  @media screen and (max-width: 458px) {
+    .section-content__card {
+      width: 380px; }
+    .section-content__card--body {
+      padding-right: 10px; }
+    .section-content__text {
+      font-size: 18px; } }
+  @media screen and (max-width: 430px) {
+    .section-content__card {
+      width: 350px; }
+    .section-content__time {
+      margin-bottom: 12px; }
+    .section-content__names--text {
+      line-height: 100%; } }
+  @media screen and (max-width: 400px) {
+    .section-content__names {
+      width: 290px; }
+    .section-content__card {
+      width: 290px;
+      height: 540px; }
+    .section-content__card--img {
+      height: 200px; }
+    .section-content__button {
+      width: 235px; }
+    .section-content__header {
+      font-size: 23px; }
+    .section-content__names--number {
+      font-size: 28px; }
+    .section-content__names--text {
+      font-size: 15px; } }
+  @media screen and (max-width: 325px) {
+    .section-content__names {
+      width: 266px; }
+    .section-content__names--number {
+      margin-left: 10px; }
+    .section-content__card {
+      width: 270px; }
+    .section-content__card--body {
+      padding-right: 0;
+      padding-left: 15px; } }
+
+.section-skills {
+  min-width: 100%;
+  background: #171717; }
+  .section-skills__header {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    text-align: center;
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #fff; }
+  .section-skills__line {
+    width: 450px;
+    height: 1px;
+    background: url("../images/Line.svg") no-repeat; }
+  .section-skills__description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 450px;
+    padding-top: 20px;
+    padding-bottom: 100px; }
+  .section-skills__description--text {
+    padding-left: 27px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.7); }
+  @media screen and (max-width: 992px) {
+    .section-skills__line {
+      width: 100%; }
+    .section-skills__description {
+      max-width: 100%; } }
+  @media screen and (max-width: 488px) {
+    .section-skills__header {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size: 24px; }
+    .section-skills__description {
+      padding-bottom: 10px; }
+    .section-skills__description--text {
+      font-size: 16px; } }
+
 .header {
   margin: 0;
   padding: 0; }
