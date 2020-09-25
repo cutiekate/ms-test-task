@@ -944,7 +944,7 @@ h1 {
     .section-results__button {
       margin-left: 35px; }
     .section-results__smartphone {
-      padding-left: 35px; } }
+      padding-left: 26px; } }
   @media screen and (max-width: 400px) {
     .section-results__header {
       font-size: 26px; }
@@ -960,7 +960,105 @@ h1 {
     .section-results__button {
       width: 260px; }
     .section-results__description {
-      margin-top: 25px; } }
+      margin-top: 25px;
+      text-align: center; } }
+
+.section-registration {
+  min-width: 100%;
+  background: #171717; }
+  .section-registration__notice--bg {
+    width: 360px;
+    height: 40px;
+    background: #0f68e4;
+    -webkit-box-shadow: -5px 5px 20px #000000;
+            box-shadow: -5px 5px 20px #000000;
+    margin-top: 150px; }
+  .section-registration__notice--text {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 7px; }
+  .section-registration__header {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px; }
+  .section-registration__time {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 32px; }
+  .section-registration__left {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 100px;
+    padding-left: 219px; }
+  .section-registration__form {
+    padding-top: 20px;
+    padding-left: 165px; }
+  @media screen and (max-width: 1261px) {
+    .section-registration__form {
+      padding-left: 70px; }
+    .section-registration__left {
+      padding-left: 120px; } }
+  @media screen and (max-width: 1067px) {
+    .section-registration__form {
+      padding-left: 40px; }
+    .section-registration__left {
+      padding-left: 55px; }
+    .section-registration__notice--bg {
+      margin-top: 100px; } }
+  @media screen and (max-width: 1009px) {
+    .section-registration__form {
+      padding-left: 0; }
+    .section-registration__left {
+      padding-left: 0; } }
+  @media screen and (max-width: 992px) {
+    .section-registration__text {
+      text-align: center; }
+    .section-registration__notice--bg {
+      margin: 50px auto 15px; }
+    .section-registration__form {
+      padding-left: 140px; } }
+  @media screen and (max-width: 768px) {
+    .section-registration__form {
+      padding-left: 55px; } }
+  @media screen and (max-width: 502px) {
+    .section-registration__form {
+      padding-left: 20px; } }
+  @media screen and (max-width: 451px) {
+    .section-registration__form {
+      padding-left: 0; }
+    .section-registration__input {
+      margin-left: 50px;
+      margin-right: 0; } }
+  @media screen and (max-width: 403px) {
+    .section-registration__notice--bg {
+      width: 325px; } }
+  @media screen and (max-width: 377px) {
+    .section-registration__notice--bg {
+      width: 280px;
+      height: 65px; } }
+  @media screen and (max-width: 321px) {
+    .section-registration__notice--bg {
+      width: 255px; }
+    .section-registration__header {
+      font-size: 25px; }
+    .section-registration__time {
+      font-size: 28px; }
+    .section-registration__input, .section-registration__button {
+      margin-left: 25px; } }
 
 .header {
   margin: 0;
