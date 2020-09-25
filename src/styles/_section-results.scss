@@ -1,0 +1,296 @@
+.section-results {
+  min-width: 100%;
+  background: #fff;
+
+  &__header {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  &__header:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    min-width: 128px;
+    height: 1px;
+    background: #0f68e4;
+    margin-right: 20px;
+  }
+
+  &__header:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    min-width: 846px;
+    height: 1px;
+    background: #0f68e4;
+    margin-left: 20px;
+  }
+
+  &__area {
+    min-width: 450px;
+  }
+
+  &__description {
+    margin-top: 62px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3d3d3d;
+    text-align: initial;
+  }
+
+  &__student {
+    display: flex;
+    margin-top: 35px;
+    min-width: 400px;
+    height: 130px;
+    background: #fff;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  &__student--img {
+    padding-left: 15px;
+    padding-right: 11px;
+  }
+
+  &__student--name {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-top: 31px;
+    margin-bottom: 0;
+  }
+
+  &__student--age {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: rgba(61, 61, 61, 0.5);
+    margin-bottom: 0;
+  }
+
+  &__student--salary {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(61, 61, 61, 0.5);
+  }
+
+  &__button {
+    width: 300px;
+    height: 60px;
+    background: #0f68e4;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 800;
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 58px;
+    margin-bottom: 141px;
+  }
+
+  &__smartphone {
+    width: 622px;
+    display: flex;
+    padding-top: 65px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__smartphone {
+      padding-top: 125px;
+    }
+    &__area {
+      min-width: 320px;
+    }
+
+    &__student {
+      min-width: 300px;
+    }
+
+    &__header:after {
+      min-width: 486px;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    &__header:after {
+      min-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    &__smartphone {
+      padding-top: 90px;
+    }
+
+    &__header:after {
+      min-width: 386px;
+    }
+  }
+
+  @media screen and (max-width: 999px) {
+
+    &__header {
+      margin-top: 45px;
+    }
+
+    &__area {
+      min-width: 700px;
+    }
+
+    &__smartphone {
+      padding-top: 0;
+      max-width: 100%;
+    }
+
+    &__header:after {
+      min-width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 831px) {
+
+    &__area {
+      min-width: 600px;
+      padding-left: 100px;
+    }
+
+    &__smartphone {
+      padding-top: 0;
+      padding-left: 100px;
+      max-width: 100%;
+    }
+
+    &__student {
+      min-width: 200px;
+    }
+
+    &__button {
+      margin-bottom: 65px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    &__area {
+      min-width: 500px;
+      padding-left: 50px;
+    }
+
+    &__smartphone {
+      padding-left: 50px;
+    }
+  }
+
+  @media screen and (max-width: 691px) {
+    &__header:after {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    &__header:before {
+      display: none;
+    }
+
+    &__header {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 532px) {
+    &__area {
+      min-width: 479px;
+      padding-left: 0;
+    }
+
+    &__button {
+      margin-left: 75px;
+    }
+  }
+
+  @media screen and (max-width: 509px) {
+    &__area {
+      min-width: 437px;
+    }
+
+    &__button {
+      margin-left: 65px;
+    }
+  }
+
+  @media screen and (max-width: 467px) {
+    &__area {
+      min-width: 360px;
+    }
+
+    &__button {
+      margin-left: 40px;
+    }
+
+    &__smartphone {
+      padding-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    &__area {
+      min-width: 320px;
+    }
+
+    &__button {
+      margin-left: 35px;
+    }
+
+    &__smartphone {
+      padding-left: 35px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    &__header {
+      font-size: 26px;
+    }
+
+    &__area {
+      min-width: 310px;
+      padding-left: 0;
+    }
+
+    &__button {
+      margin-left: 0;
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    &__area {
+      min-width: 280px;
+    }
+
+    &__button {
+      width: 260px;
+    }
+
+    &__description {
+      margin-top: 25px;
+    }
+  }
+}
