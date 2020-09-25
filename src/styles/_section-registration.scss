@@ -1,0 +1,161 @@
+.section-registration {
+  min-width: 100%;
+  background: #171717;
+
+
+  &__notice--bg {
+    width: 360px;
+    height: 40px;
+    background: #0f68e4;
+    box-shadow: -5px 5px 20px #000000;
+    margin-top: 150px;
+  }
+
+  &__notice--text {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 7px;
+  }
+
+  &__header {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+  }
+
+  &__time {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 32px;
+  }
+
+  &__left {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 100px;
+    padding-left: 219px;
+  }
+
+  &__form {
+    padding-top: 20px;
+    padding-left: 165px;
+  }
+
+  @media screen and (max-width: 1261px) {
+    &__form {
+      padding-left: 70px;
+    }
+
+    &__left {
+      padding-left: 120px;
+    }
+  }
+
+  @media screen and (max-width: 1067px) {
+    &__form {
+      padding-left: 40px;
+    }
+
+    &__left {
+      padding-left: 55px;
+    }
+
+    &__notice--bg {
+      margin-top: 100px;
+    }
+  }
+
+  @media screen and (max-width: 1009px) {
+    &__form {
+      padding-left: 0;
+    }
+
+    &__left {
+      padding-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    &__text {
+      text-align: center;
+    }
+
+    &__notice--bg {
+      margin: 50px auto 15px;
+    }
+
+    &__form {
+      padding-left: 140px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__form {
+      padding-left: 55px;
+    }
+  }
+
+  @media screen and (max-width: 502px) {
+    &__form {
+      padding-left: 20px;
+    }
+  }
+
+  @media screen and (max-width: 451px) {
+    &__form {
+      padding-left: 0;
+    }
+
+    &__input {
+      margin-left: 50px;
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 403px) {
+    &__notice--bg {
+      width: 325px;
+    }
+  }
+
+  @media screen and (max-width: 377px) {
+    &__notice--bg {
+      width: 280px;
+      height: 65px;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    &__notice--bg {
+      width: 255px;
+    }
+
+    &__header {
+      font-size: 25px;
+    }
+
+    &__time {
+      font-size: 28px;
+    }
+
+    &__input,
+    &__button {
+      margin-left: 25px;
+    }
+  }
+
+}
