@@ -768,6 +768,200 @@ h1 {
     .section-skills__description--text {
       font-size: 16px; } }
 
+.section-results {
+  min-width: 100%;
+  background: #fff; }
+  .section-results__header {
+    font-family: "Mplus 1p", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 100px;
+    overflow: hidden; }
+  .section-results__header:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    min-width: 128px;
+    height: 1px;
+    background: #0f68e4;
+    margin-right: 20px; }
+  .section-results__header:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    min-width: 846px;
+    height: 1px;
+    background: #0f68e4;
+    margin-left: 20px; }
+  .section-results__area {
+    min-width: 450px; }
+  .section-results__description {
+    margin-top: 62px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3d3d3d;
+    text-align: initial; }
+  .section-results__student {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+    min-width: 400px;
+    height: 130px;
+    background: #fff;
+    -webkit-box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .section-results__student--img {
+    padding-left: 15px;
+    padding-right: 11px; }
+  .section-results__student--name {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-top: 31px;
+    margin-bottom: 0; }
+  .section-results__student--age {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: rgba(61, 61, 61, 0.5);
+    margin-bottom: 0; }
+  .section-results__student--salary {
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(61, 61, 61, 0.5); }
+  .section-results__button {
+    width: 300px;
+    height: 60px;
+    background: #0f68e4;
+    -webkit-box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 800;
+    font-family: "Mplus 1p", sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 58px;
+    margin-bottom: 141px; }
+  .section-results__smartphone {
+    width: 622px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 65px; }
+  @media screen and (max-width: 1200px) {
+    .section-results__smartphone {
+      padding-top: 125px; }
+    .section-results__area {
+      min-width: 320px; }
+    .section-results__student {
+      min-width: 300px; }
+    .section-results__header:after {
+      min-width: 486px; } }
+  @media screen and (max-width: 1080px) {
+    .section-results__header:after {
+      min-width: 400px; } }
+  @media screen and (max-width: 1025px) {
+    .section-results__smartphone {
+      padding-top: 90px; }
+    .section-results__header:after {
+      min-width: 386px; } }
+  @media screen and (max-width: 999px) {
+    .section-results__header {
+      margin-top: 45px; }
+    .section-results__area {
+      min-width: 700px; }
+    .section-results__smartphone {
+      padding-top: 0;
+      max-width: 100%; }
+    .section-results__header:after {
+      min-width: 100px; } }
+  @media screen and (max-width: 831px) {
+    .section-results__area {
+      min-width: 600px;
+      padding-left: 100px; }
+    .section-results__smartphone {
+      padding-top: 0;
+      padding-left: 100px;
+      max-width: 100%; }
+    .section-results__student {
+      min-width: 200px; }
+    .section-results__button {
+      margin-bottom: 65px; } }
+  @media screen and (max-width: 760px) {
+    .section-results__area {
+      min-width: 500px;
+      padding-left: 50px; }
+    .section-results__smartphone {
+      padding-left: 50px; } }
+  @media screen and (max-width: 691px) {
+    .section-results__header:after {
+      display: none; } }
+  @media screen and (max-width: 580px) {
+    .section-results__header:before {
+      display: none; }
+    .section-results__header {
+      text-align: center; } }
+  @media screen and (max-width: 532px) {
+    .section-results__area {
+      min-width: 479px;
+      padding-left: 0; }
+    .section-results__button {
+      margin-left: 75px; } }
+  @media screen and (max-width: 509px) {
+    .section-results__area {
+      min-width: 437px; }
+    .section-results__button {
+      margin-left: 65px; } }
+  @media screen and (max-width: 467px) {
+    .section-results__area {
+      min-width: 360px; }
+    .section-results__button {
+      margin-left: 40px; }
+    .section-results__smartphone {
+      padding-left: 40px; } }
+  @media screen and (max-width: 420px) {
+    .section-results__area {
+      min-width: 320px; }
+    .section-results__button {
+      margin-left: 35px; }
+    .section-results__smartphone {
+      padding-left: 35px; } }
+  @media screen and (max-width: 400px) {
+    .section-results__header {
+      font-size: 26px; }
+    .section-results__area {
+      min-width: 310px;
+      padding-left: 0; }
+    .section-results__button {
+      margin-left: 0;
+      width: 300px; } }
+  @media screen and (max-width: 321px) {
+    .section-results__area {
+      min-width: 280px; }
+    .section-results__button {
+      width: 260px; }
+    .section-results__description {
+      margin-top: 25px; } }
+
 .header {
   margin: 0;
   padding: 0; }
