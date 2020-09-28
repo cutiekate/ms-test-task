@@ -22,7 +22,7 @@
   <body>
     <div class="container header">
       <div class="header__container">
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">
               <img
               src="./images/logo.svg"
@@ -30,29 +30,34 @@
               height="43px"
               alt="logo">
             </a>
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link navbar__link" href="#">Авторы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link" href="#">О курсе</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link" href="#">Содержание</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link navbar__link--last" href="#">Отзывы</a>
-              </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link navbar__link" href="#">Авторы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar__link" href="#">О курсе</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar__link" href="#">Содержание</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar__link navbar__link--last" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </div>
         </nav>
         <div class="header__border"></div>
         <div class="container header__main">
           <div class="row">
             <div class="col header__description">
-              <h1 class="header__description--head">Start Trading — видео-курс из 7-и уроков</h1>
+              <h1 class="header__description--head animate__animated animate__backInLeft">Start Trading — видео-курс из 7-и уроков</h1>
               <p class="header__description--body">Поможет тебе понять как получить первую прибыль уже после просмотра первого видео</p>
             </div>
-            <div class="col-sm-6 header__form form">
+            <div class="col-sm-6 header__form form animate__animated animate__fadeInRight">
               <form>
                 <input
                  class="form__input form__input--user-img"
@@ -78,7 +83,7 @@
     </div>
     <div class="container section-white">
       <div class="header__container">
-        <h2 class="section-white__head">Этот видео-курс для тебя,<br><a href="#" class="link">если ты...</a></h2>
+        <h2 class="section-white__head animate__animated animate__fadeInLeft">Этот видео-курс для тебя,<br><a href="#" class="link">если ты...</a></h2>
         <div class="container">
           <div class="row">
             <div class="col-sm section-white__col">
@@ -385,7 +390,27 @@
               <p class="section-registration__notice--text">Количество мест ограничено!</p>
             </div>
             <h2 class="section-registration__header">Регистрируйся на «Start <br>Trading» И начни смотреть!</h2>
-            <div class="section-registration__time">00 : 00 : 10 :</div>
+            <div class="section-registration__time countdown">
+              <div class="countdown__time-section">
+                <span class="countdown__time" id="days"></span>
+                <span class="countdown__units">Дней</span>
+              </div>
+              <span>:</span>
+              <div class="countdown__time-section">
+                <span class="countdown__time" id="hours"></span>
+                <span class="countdown__units">Часов</span>
+              </div>
+              <span>:</span>
+              <div class="countdown__time-section">
+                <span class="countdown__time" id="minutes"></span>
+                <span class="countdown__units">Минут</span>
+              </div>
+              <span>:</span>
+              <div class="countdown__time-section">
+                <span class="countdown__time" id="seconds"></span>
+                <span class="countdown__units">Секунд</span>
+              </div>
+            </div>
           </div>
           <div class="col">
             <h4 class="section-registration__left">Осталось всего 3 бесплатных места</h4>
@@ -476,6 +501,53 @@
 
       </div>
     </div>
+    <footer class="container footer">
+      <div class="container">
+        <nav class="navbar footer__navbar">
+          <a class="navbar-brand" href="#">
+            <img
+            src="./images/logo-footer.svg"
+            widht="100px"
+            height="43px"
+            alt="logo">
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link navbar__link" href="#">Авторы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar__link" href="#">О курсе</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar__link" href="#">Содержание</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar__link navbar__link--last" href="#">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col footer__info">
+            <p class="footer__info--text">Мы не передаем Ваши данные третьим лицам</p>
+            <p class="footer__info--tel">тел +7-495-009-04-67</p>
+            <p class="footer__info--schedule">с 10:00 до 19:00 Пн-Пт</p>
+          </div>
+        </div>
+      </div>
+      <div class="container footer__line"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col footer__rights">
+            <p class="footer__rights">© 2020 FINWIKI. Все права защищены.</p>
+          </div>
+          <div class="col">
+            <p class="footer__politics">Политика конфиденциальности</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <script src="./scripts/lib/owlcarousel2/owl.carousel.min.js"></script>

@@ -1,0 +1,100 @@
+.footer {
+  min-width: 100%;
+  background: #0f68e4;
+
+
+
+  &__info--text,
+  &__info--tel,
+  &__info--schedule,
+  &__rights,
+  &__politics {
+    font-size: 16px;
+    line-height: 200%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+  }
+
+  &__info--schedule {
+    margin-bottom: 14px;
+  }
+
+  &__info--tel {
+    font-weight: bold;
+  }
+
+  &__line {
+    width: 1110px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transform: rotate(0.05deg);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &__navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &__rights {
+    padding-right: 0;
+  }
+
+  &__politics {
+    text-align: end;
+    text-decoration-line: underline;
+  }
+
+  &__politics,
+  &__rights {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 577px) {
+    &__line {
+      width: 510px;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    &__line {
+      width: 480px;
+    }
+  }
+
+  @media screen and (max-width: 502px) {
+    &__line {
+      width: 440px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    &__line {
+      width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 431px) {
+    &__line {
+      width: 370px;
+    }
+  }
+
+  @media screen and (max-width: 395px) {
+    &__line {
+      width: 335px;
+    }
+  }
+
+  @media screen and (max-width: 365px) {
+    &__line {
+      width: 305px;
+    }
+  }
+
+  @media screen and (max-width: 335px) {
+    &__line {
+      width: 280px;
+    }
+  }
+}
