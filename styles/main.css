@@ -1003,10 +1003,11 @@ h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     margin-top: 100px;
-    padding-left: 219px; }
+    padding-left: 163px; }
   .section-registration__form {
     padding-top: 20px;
-    padding-left: 165px; }
+    padding-left: 165px;
+    margin-bottom: 100px; }
   @media screen and (max-width: 1261px) {
     .section-registration__form {
       padding-left: 70px; }
@@ -1059,6 +1060,91 @@ h1 {
       font-size: 28px; }
     .section-registration__input, .section-registration__button {
       margin-left: 25px; } }
+
+.footer {
+  min-width: 100%;
+  background: #0f68e4; }
+  .footer__info--text, .footer__info--tel, .footer__info--schedule, .footer__rights, .footer__politics {
+    font-size: 16px;
+    line-height: 200%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0; }
+  .footer__info--schedule {
+    margin-bottom: 14px; }
+  .footer__info--tel {
+    font-weight: bold; }
+  .footer__line {
+    width: 1110px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    -webkit-transform: rotate(0.05deg);
+            transform: rotate(0.05deg);
+    padding-left: 15px;
+    padding-right: 15px; }
+  .footer__navbar {
+    padding-left: 0;
+    padding-right: 0; }
+  .footer__rights {
+    padding-right: 0; }
+  .footer__politics {
+    text-align: end;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+  .footer__politics, .footer__rights {
+    margin-bottom: 10px; }
+  @media screen and (max-width: 577px) {
+    .footer__line {
+      width: 510px; } }
+  @media screen and (max-width: 540px) {
+    .footer__line {
+      width: 480px; } }
+  @media screen and (max-width: 502px) {
+    .footer__line {
+      width: 440px; } }
+  @media screen and (max-width: 470px) {
+    .footer__line {
+      width: 400px; } }
+  @media screen and (max-width: 431px) {
+    .footer__line {
+      width: 370px; } }
+  @media screen and (max-width: 395px) {
+    .footer__line {
+      width: 335px; } }
+  @media screen and (max-width: 365px) {
+    .footer__line {
+      width: 305px; } }
+  @media screen and (max-width: 335px) {
+    .footer__line {
+      width: 280px; } }
+
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .countdown__time-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .countdown__time {
+    font-size: 36px;
+    line-height: 150%; }
+  .countdown__units {
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.5); }
 
 .header {
   margin: 0;
